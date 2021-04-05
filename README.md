@@ -1,2 +1,18 @@
-# APPTS
-Adaptive based parallel TS for CCAG
+An Adaptive Penalty based Paralle Tabu Search for Constrained Covering Array Generation
+==============================================================================
+
+
+Experimental results
+----
+Please refer to the file `results.pdf`.
+
+
+Executable JAR File
+----
+To generate a constrained covering array by APPTS, use the following command:
+
+java -jar appts.jar  <MODEL_NAME><CONSTRAINT_NAME><CUTOFFTIME>
+For example: java -jar appts.jar demo.model demo.constraints 30
+
+Noted: (1)iopg-ft.jar is used to generate a initial CA and it must be in the same directory as apts.jar.
+(2) we also provide the .jar files for the alternative versions of APPTS, i.e., DPTS,SPTS and APTS, and these files are used  in the same way as appts.jar.
