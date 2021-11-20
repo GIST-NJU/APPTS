@@ -1,6 +1,9 @@
 An Adaptive Penalty based Parallel Tabu Search for Constrained Covering Array Generation
 ==============================================================================
 
+Source code
+----
+Please refer to the directories `appts_source`.
 
 Experimental results
 ----
